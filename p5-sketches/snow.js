@@ -58,13 +58,35 @@
 // };
 
 
-function setup() {
-  var canvas1 = createCanvas(300, 300);
-  canvas1.parent("canvas1");
+// function setup() {
+//   var canvas1 = createCanvas(100, 300);
+//   canvas1.parent("canvas1");
   
-}
+// }
 
-function draw() {
-  background(0);
+// function draw() {
+//   background(0);
   
-}
+// }
+
+
+var t = function( p ) { 
+  var x = 100.0; 
+  var y = 100; 
+  var speed = 2.5; 
+  p.setup = function() {
+    p.createCanvas(400, 200);
+  };
+
+  p.draw = function() {
+    p.background(100);
+    p.fill(1);
+    x += speed; 
+    if(x > p.width){
+      x = 0; 
+    }
+    p.ellipse(x,y,50,50);
+
+  };
+};
+var myp51 = new p5(t, 'canvas1');
