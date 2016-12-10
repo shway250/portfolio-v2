@@ -96,7 +96,7 @@ var sketch1 = function(p) {
   p.y = 100;
   p.setup = function() {
     var canvas1 = p.createCanvas(200, 200);
-    //canvas1.parent("canvas1");
+    canvas1.parent("canvas1");
     p.background(51);
   }
   p.draw = function() {

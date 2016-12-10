@@ -164,7 +164,8 @@ var sketch2 = function(p) {
   p.x = 100;
   p.y = 100;
   p.setup = function() {
-    p.createCanvas(200, 200);
+    var canvas2 = p.createCanvas(200, 200);
+    canvas2.parent("canvas2");
     p.background(51);
   }
   p.draw = function() {
