@@ -1,14 +1,14 @@
-var snow = [];
-var number_of_flakes = 150;
+// var snow = [];
+// var number_of_flakes = 150;
 
-function setup() {
-  var canvas1 = createCanvas(300, 300);
-  canvas1.parent("canvas1");
-  // Create object
-  for (var i = 0; i < number_of_flakes; i++){
-    snow[i] = new Jitter();
-  }
-}
+// function setup() {
+//   var canvas1 = createCanvas(300, 300);
+//   canvas1.parent("canvas1");
+//   // Create object
+//   for (var i = 0; i < number_of_flakes; i++){
+//     snow[i] = new Jitter();
+//   }
+// }
 
 function draw() {
   background(255);
@@ -56,6 +56,42 @@ function Jitter() {
     }
   }
 };
+
+////////////////=====================\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+//ABOVE IS WORKING GLOBAL MODE CODE! BELOW I'M GOING TO CONVERT IT TO INSTANCE MODE!!!!
+
+
+var sketch1 = function(p) {
+  var snow = [];
+  var number_of_flakes = 150;
+
+  p.setup = function() {
+    var canvas1 = p.createCanvas(400, 600);
+    canvas1.parent("canvas1");
+    for (var i = 0; i < number_of_flakes; i++){
+      snow[i] = new Jitter();
+    }
+    
+  }
+  p.draw = function() {
+    p.background(255);
+    p.fill(255, 0, 200, 25);
+    p.noStroke();
+    p.ellipse(p.x, p.y, 48, 48);
+
+    p.x = p.x + p.random(-10, 10);
+    p.y = p.y + p.random(-10, 10);
+  }
+}
+
+
+var myp5_1 = new p5(sketch1);
+
+function resetBackground() {
+  myp5_1.x = myp5_1.width/2;
+  myp5_1.y = myp5_1.height/2;
+  myp5_1.background(51);
+}
 
 
 // var sketch1 = function(p) {
