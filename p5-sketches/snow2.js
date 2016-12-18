@@ -1,7 +1,7 @@
 
 var sketch2 = function(p) {
   var snow = [];
-  var number_of_flakes = 150;
+  var number_of_flakes = 40;
 
   p.setup = function() {
     var canvas1 = p.createCanvas(p.windowWidth, p.windowHeight/2);
@@ -11,7 +11,7 @@ var sketch2 = function(p) {
     }
   }
   p.draw = function() {
-    p.background(200);
+    p.background(245);
     for (var i = 0; i < number_of_flakes; i++){
       snow[i].move();
       snow[i].display();
