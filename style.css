@@ -8,3 +8,34 @@ div{
   margin: 0;
   padding: 0;
 }
+
+header{
+  position:fixed;
+}
+
+section{
+  position: absolute;
+}
+
+ul{
+  background: rgba(225,255,225,0.5);
+}
+
+li{
+  display: inline-block;
+  font-size: 5em;
+}
+
+.sketches{
+  z-index:-1;
+}
+
+#canvas1{
+  /*position: relative;*/
+/*  left:0;
+  top:90;*/
+}
+#canvas2{
+ /* position: relative;*/
+
+}
