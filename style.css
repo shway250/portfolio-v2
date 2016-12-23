@@ -12,15 +12,20 @@ header{
   position:fixed;
 }
 
+.container{
+  display: flex;
+  justify-content: flex-start;
+
+}
+
 .about-text{
   position: absolute;
   top: 7%;
   font-size: 21px;
 }
 .about-text2{
-  position: relative;
-  /*top: 7%;*/
-  font-size: 21px;
+  /*justify-content: flex-start;*/
+  /*display: inline-flex;*/
 }
 
 ul{
@@ -33,6 +38,7 @@ li{
 }
 
 .sketches{
+  position: relative;
   z-index:-1;
 }
 

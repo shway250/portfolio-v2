@@ -1,6 +1,6 @@
 var sketch1 = function(p) {
   var snow = [];
-  var number_of_flakes = 50;
+  var number_of_flakes = 15;
 
   p.setup = function() {
     var canvas1 = p.createCanvas(p.windowWidth, p.windowHeight/2);
