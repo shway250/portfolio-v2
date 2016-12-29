@@ -3,33 +3,23 @@ body{
   margin: 0;
 }
 
-div{
+section{
+  margin: -20px 0;
+  padding: 0;
+  height: 500px;
+}
+
+footer{
+  position:fixed;
+  bottom: 0px;
   margin: 0;
+  margin-bottom: -20px;
   padding: 0;
 }
 
-header{
-  position:fixed;
-}
-
-.container{
-  display: flex;
-  justify-content: flex-start;
-
-}
-
-.about-text{
-  position: absolute;
-  top: 7%;
-  font-size: 21px;
-}
-.about-text2{
-  /*justify-content: flex-start;*/
-  /*display: inline-flex;*/
-}
 
 ul{
-  background: rgba(225,255,225,0.9);
+  background: grey;
 }
 
 li{
@@ -37,17 +27,29 @@ li{
   font-size: 5em;
 }
 
-.sketches{
-  position: relative;
-  z-index:-1;
+.homeDiv{
+  background: red;
+  text-align: center;
+}
+.aboutDiv{
+  background: pink;
 }
 
-#canvas1{
-  /*position: relative;*/
-/*  left:0;
-  top:90;*/
+.resumeDiv{
+  background: blue;
 }
-#canvas2{
- /* position: relative;*/
 
+.projectsDiv{
+  background: yellow;
 }
+
+.contactDiv{
+  background: green;
+}
+
+.centered-text{
+  /*margin: 25% auto;*/
+  padding-top: 25%;
+}
+
+
