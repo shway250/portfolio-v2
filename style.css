@@ -3,18 +3,26 @@ body{
   margin: 0;
 }
 
+h1{
+  font-size: 50px;
+}
+h2{
+  font-size: 37px;
+}
+
 section{
-  margin: -20px 0;
+  margin: -40px 0;
   padding: 0;
-  height: 500px;
+  height: 700px;
 }
 
 footer{
   position:fixed;
   bottom: 0px;
-  margin: 0;
+  margin: 0 auto;
   margin-bottom: -20px;
   padding: 0;
+  text-align: center;
 }
 
 
@@ -24,7 +32,7 @@ ul{
 
 li{
   display: inline-block;
-  font-size: 5em;
+  font-size: 4em;
 }
 
 .homeDiv{
@@ -33,6 +41,7 @@ li{
 }
 .aboutDiv{
   background: pink;
+  text-align: right;
 }
 
 .resumeDiv{
@@ -48,8 +57,7 @@ li{
 }
 
 .centered-text{
-  /*margin: 25% auto;*/
-  padding-top: 25%;
+  padding-top: 20%;
 }
 
 
