@@ -25,23 +25,33 @@ section{
 footer{
   position:fixed;
   bottom: 0px;
-  /*margin: 0 auto;*/
   margin-bottom: -20px;
   padding: 0;
   text-align: center;
   width: 100%;
+  background: rgba(225,255,225,0.9);
 }
 
-ul{
-  background: grey;
-  /*text-align: center;*/
+.footerList li{
+  display: inline-block;
+  font-size: 3em;
+}
+.footerList li a{
+  color: black;
+  text-decoration: none;
+  padding-right: 9px;
+  padding-left: 9px;
+}
+.footerList li a:hover{
+  color: grey;
+  text-decoration: underline;
 }
 
-li{
+/*li{
   display: inline-block;
   font-size: 4em;
 }
-
+*/
 .container{
   position: relative;
   padding-right: 15px;
@@ -57,6 +67,24 @@ li{
 .aboutDiv{
   background: pink;
   /*text-align: right;*/
+}
+.aboutImg{
+  width: 350px;
+  height: auto;
+  margin: 0 0 1em 1em;
+  float: right;
+  padding-top: 1em;
+  /* position: absolute;
+  left: 0px;*/
+}
+.bigName{
+  font-size: 40px;
+  font-weight: bold;
+}
+.aboutWriting{
+  text-align: justify;
+  padding-top: 1em;
+  /*margin-left: 300px;*/
 }
 
 .resumeDiv{
