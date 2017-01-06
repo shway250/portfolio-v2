@@ -31,7 +31,6 @@ footer{
   width: 100%;
   background: rgba(225,255,225,0.9);
 }
-
 .footerList li{
   display: inline-block;
   font-size: 3em;
@@ -47,11 +46,6 @@ footer{
   text-decoration: underline;
 }
 
-/*li{
-  display: inline-block;
-  font-size: 4em;
-}
-*/
 .container{
   position: relative;
   padding-right: 15px;
@@ -64,9 +58,10 @@ footer{
   background: red;
   text-align: center;
 }
+/*ABOUT STYLING*/
 .aboutDiv{
-  background: pink;
-  /*text-align: right;*/
+  background: white;
+  color: rgb(44, 44, 45);
 }
 .aboutImg{
   width: 350px;
@@ -74,19 +69,24 @@ footer{
   margin: 0 0 1em 1em;
   float: right;
   padding-top: 1em;
-  /* position: absolute;
-  left: 0px;*/
 }
 .bigName{
   font-size: 40px;
   font-weight: bold;
+  color: black;
 }
 .aboutWriting{
   text-align: justify;
   padding-top: 1em;
-  /*margin-left: 300px;*/
+}
+.aboutWriting ul{
+  text-align: center;
+}
+.aboutWriting ul li{
+  display: inline-block;
 }
 
+/*RESUME STYLING */
 .resumeDiv{
   background: blue;
 }
