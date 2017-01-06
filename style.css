@@ -130,10 +130,15 @@ footer{
 
 .projectsDiv{
   background: yellow;
+  text-align: center;
 }
 
 .contactDiv{
   background: green;
+  text-align: center;
+}
+.skillsDiv{
+  padding: 0 0 4em 0;
 }
 
 
