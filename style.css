@@ -61,10 +61,7 @@ footer{
   background: red;
   text-align: center;
 }
-.centered-text{
-/*  padding-top: 5em;
-  padding-bottom: 3em;*/
-}
+
 .name{
   padding-top: 3em;
   padding-bottom: 1em;
@@ -84,7 +81,7 @@ footer{
 .aboutImg{
   width: 130px;
   height: auto;
-  margin: 0 0 1em 1em;
+  margin: 0 0 0 .5em;
   float: right;
   padding-top: 1em;
 }
@@ -94,12 +91,12 @@ footer{
   color: black;
 }
 .aboutWriting{
-  /*text-align: justify;*/
+  text-align: justify;
   padding-top: 1em;
 }
 .aboutWriting ul{
   text-align: center;
-  padding: 0;
+  padding: 1em 0 1em 0;
   margin: 0;
 }
 .aboutWriting ul li{
@@ -113,6 +110,22 @@ footer{
 /*RESUME STYLING */
 .resumeDiv{
   background: blue;
+  text-align: center;
+}
+.centered-text{
+  padding: 1em 0 1em 0;
+}
+.centered-text a{
+  color: black;
+}
+.centered-text a:hover{
+  color: white;
+}
+.resumeImg{
+  padding: 1.5em 0 1em 0;
+}
+.resumeText{
+  padding-top: 1em;
 }
 
 .projectsDiv{
