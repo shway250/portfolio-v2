@@ -1,7 +1,7 @@
 body{
   background: rgb(225,255,225);
   margin: 0;
-  font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: Tahoma, sans-serif;
 }
 
 h1{
@@ -22,24 +22,28 @@ section{
   height: 700px;
 }
 
+/* ALL FOOTER STYLING */
 footer{
   position:fixed;
   bottom: 0px;
-  margin-bottom: -20px;
+  /*margin-bottom: -20px;*/
   padding: 0;
   text-align: center;
   width: 100%;
   background: rgba(225,255,225,0.9);
 }
+.footerList{
+  padding: 0;
+}
 .footerList li{
   display: inline-block;
-  font-size: 3em;
+  font-size: 1em;
 }
 .footerList li a{
   color: black;
   text-decoration: none;
-  padding-right: 9px;
-  padding-left: 9px;
+  padding-right: 5px;
+  padding-left: 5px;
 }
 .footerList li a:hover{
   color: grey;
