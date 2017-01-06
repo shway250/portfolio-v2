@@ -1,13 +1,20 @@
 body{
   background: rgb(225,255,225);
   margin: 0;
+  font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 h1{
-  font-size: 50px;
+  font-size: 60px;
 }
 h2{
-  font-size: 37px;
+  font-size: 50px;
+}
+h3{
+  font-size: 40px;
+}
+p{
+  font-size: 30px;
 }
 
 section{
