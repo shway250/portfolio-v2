@@ -1,32 +1,30 @@
 body{
-  background: rgb(225,255,225);
+  background: black;
   margin: 0;
   font-family: Tahoma, sans-serif;
 }
 
 h1{
-  font-size: 60px;
+  font-size: 30px;
+  margin: 0;
 }
 h2{
-  font-size: 50px;
+  font-size: 25px;
+  margin: 0;
 }
 h3{
-  font-size: 40px;
+  font-size: 20px;
+  margin: 0;
 }
 p{
-  font-size: 30px;
-}
-
-section{
-  margin: -40px 0;
-  height: 700px;
+  font-size: 15px;
+  margin: 0;
 }
 
 /* ALL FOOTER STYLING */
 footer{
   position:fixed;
   bottom: 0px;
-  /*margin-bottom: -20px;*/
   padding: 0;
   text-align: center;
   width: 100%;
@@ -58,38 +56,55 @@ footer{
   margin-left: auto;
 }
 
+/* HOME PAGE STYLING */
 .homeDiv{
   background: red;
   text-align: center;
 }
+.centered-text{
+/*  padding-top: 5em;
+  padding-bottom: 3em;*/
+}
+.name{
+  padding-top: 3em;
+  padding-bottom: 1em;
+}
+.andClass{
+  padding: .5em 0 .5em 0;
+}
+.seattleClass{
+  padding: 1em 0 3em 0;
+}
+
 /*ABOUT STYLING*/
 .aboutDiv{
   background: white;
   color: rgb(44, 44, 45);
 }
 .aboutImg{
-  width: 350px;
+  width: 130px;
   height: auto;
   margin: 0 0 1em 1em;
   float: right;
   padding-top: 1em;
 }
 .bigName{
-  font-size: 40px;
+  font-size: 20px;
   font-weight: bold;
   color: black;
 }
 .aboutWriting{
-  text-align: justify;
+  /*text-align: justify;*/
   padding-top: 1em;
 }
 .aboutWriting ul{
   text-align: center;
+  padding: 0;
+  margin: 0;
 }
 .aboutWriting ul li{
   display: inline-block;
-  padding-right: 20px;
-  padding-left: 20px;
+  padding: 0 20px 10px 20px;
 }
 .aboutWriting ul li a{
     color: black;
@@ -108,8 +123,6 @@ footer{
   background: green;
 }
 
-.centered-text{
-  padding-top: 5em;
-}
+
 
 
