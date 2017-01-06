@@ -12,27 +12,35 @@ h2{
 
 section{
   margin: -40px 0;
-  padding: 0;
   height: 700px;
 }
 
 footer{
   position:fixed;
   bottom: 0px;
-  margin: 0 auto;
+  /*margin: 0 auto;*/
   margin-bottom: -20px;
   padding: 0;
   text-align: center;
+  width: 100%;
 }
-
 
 ul{
   background: grey;
+  /*text-align: center;*/
 }
 
 li{
   display: inline-block;
   font-size: 4em;
+}
+
+.container{
+  position: relative;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .homeDiv{
@@ -41,7 +49,7 @@ li{
 }
 .aboutDiv{
   background: pink;
-  text-align: right;
+  /*text-align: right;*/
 }
 
 .resumeDiv{
