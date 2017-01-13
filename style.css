@@ -58,19 +58,22 @@ footer{
 
 /* HOME PAGE STYLING */
 .homeDiv{
-  background: red;
+  background-image: url('imgs/home_page.gif');
+  background-size: cover;
+
   text-align: center;
+  color: white;
 }
 
 .name{
-  padding-top: 3em;
+  padding-top: 7em;
   padding-bottom: 1em;
 }
 .andClass{
   padding: .5em 0 .5em 0;
 }
 .seattleClass{
-  padding: 1em 0 3em 0;
+  padding: 1em 0 7em 0;
 }
 
 /*ABOUT STYLING*/
@@ -109,7 +112,12 @@ footer{
 
 /*RESUME STYLING */
 .resumeDiv{
-  background: blue;
+  background: #62bab1; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, red, yellow); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, red, yellow); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, red, yellow); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, red, yellow); /* Standard syntax */
+}
   text-align: center;
 }
 .centered-text{
