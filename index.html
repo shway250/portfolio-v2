@@ -2,7 +2,9 @@
 <html>
 <head>
   <title>Jackson Duhon</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="css/style-mobile.css" media="screen and (max-width:420px)">
+  <link rel="stylesheet" type="text/css" href="css/style-tablet.css" media="screen and (min-width:421px) and (max-width:720px)">
+  <link rel="stylesheet" type="text/css" href="css/style.css" media="screen and (min-width:721px)">
   <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 <!--   Javascript Bidness -->  
 </head>
@@ -23,13 +25,13 @@
       </p>
       <ul>
         <li>
-          <a href="#"><i class="fa fa-github-square fa-2x" aria-hidden="true"></i></a>
+          <a href="#"><i class="fa fa-github-square fa-3x" aria-hidden="true"></i></a>
         </li>
         <li>
-          <a href="#"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
+          <a href="#"><i class="fa fa-envelope fa-3x" aria-hidden="true"></i></a>
         </li>
         <li>
-          <a href="#"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+          <a href="#"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
         </li>
     </ul>
     </div>
@@ -38,11 +40,11 @@
   <section class="resumeDiv container">
     <h2 class="resumeText">Resume</h2>
     <div class="centered-text">
-      <a href="#"><i class="fa fa-file-pdf-o fa-3x" aria-hidden="true"></i></a>
+      <a href="#"><i class="fa fa-file-pdf-o fa-4x" aria-hidden="true"></i></a>
       <p>Download PDF Version</p>
 
       <div class="resumeImg">
-        <a href="#"><i class="fa fa-file-text fa-3x" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-file-text fa-4x" aria-hidden="true"></i></a>
         <p class="bottomOfResume">Download Text Version</p>
       </div>
     </div>
@@ -52,8 +54,11 @@
     <h1 class="projectsHeadLine">Projects</h2>
 
     <h2 class="projectName">Euclid</h2>
-    <p class="projectsText">A front end FM Synthesizer. Allows the user to create generative compositions using just the browser.</p> 
-    <p class="projectsText"><strong>Technologies used:</strong> HTML, CSS, Javascript, Canvas, P5.js.</p>
+    <div class="inlineBlock">
+      <p class="projectsText">A front end FM Synthesizer. Allows the user to create generative compositions using just the browser.</p> 
+      <p class="projectsText"><strong>Role:</strong> Sound Design, Sound Sythesis, Front End Design</p>
+      <p class="projectsText"><strong>Technologies used:</strong> HTML, CSS, Javascript, Canvas, P5.js.</p>
+    </div>
     <a href="#">
       <img src="./imgs/euclid.png" alt="The euclid interface" class="projectsImg">
     </a>
@@ -61,8 +66,11 @@
     <br>
 
     <h2 class="projectName">Artemis</h2>
-    <p class="projectsText">A full stack web application that helps you keep track of all the applications you’re sending during a job search. Won first place in the GA MEAN stack Hackathon</p> 
-    <p class="projectsText"><strong>Technologies used:</strong> MongoDb, Express, Angular.js, Node.js.</p>
+    <div class="inlineBlock">
+      <p class="projectsText">A full stack web application that helps you keep track of all the applications you’re sending during a job search. Won first place in the GA MEAN stack Hackathon</p> 
+      <p class="projectsText"><strong>Role:</strong> Authentication, authorization, databases, deployment.</p>
+      <p class="projectsText"><strong>Technologies used:</strong> MongoDb, Express, Angular.js, Node.js.</p>
+    </div>
     <a href="#">
       <img src="./imgs/artemis.png" alt="The Artemis front page" class="projectsImg">
     </a>
@@ -70,9 +78,11 @@
     <br>
 
     <h2 class="projectName">Accio Bike</h2>
-    <p class="projectsText">A full stack web application for storing information about your bike and web crawling through Craigslist to help find it if it is stolen.</p>  
-    <p class="projectsText"><strong>Role:</strong> Authentication, authorization, databases, deployment.
-    <p class="projectsText"><strong>Technologies used:</strong> HTML, CSS, Javascritp, Ruby on Rails, NokoGiri.</p>
+    <div class="inlineBlock">
+      <p class="projectsText">A full stack web application for storing information about your bike and web crawling through Craigslist to help find it if it is stolen.</p>  
+      <p class="projectsText"><strong>Role:</strong> Authentication, authorization, databases, deployment.
+      <p class="projectsText"><strong>Technologies used:</strong> HTML, CSS, Javascritp, Ruby on Rails, NokoGiri.</p>
+    </div>
     <a href="#">
       <img src="./imgs/accio-bike.png" alt="The accio-bike home page" class="projectsImg">
     </a>
@@ -80,8 +90,10 @@
     <br>
 
     <h2 class="projectName">Wubba Lubba Four Square</h2>
-    <p class="projectsText">A front end Connect Four game based off the cartoon "Rick and Morty".</p> 
-    <p class="projectsText"><strong>Technologies used:</strong> HTML, CSS, Javascript, jQuery</p>
+    <div class="inlineBlock">
+      <p class="projectsText">A front end Connect Four game based off the cartoon "Rick and Morty".</p> 
+      <p class="projectsText"><strong>Technologies used:</strong> HTML, CSS, Javascript, jQuery</p>
+    </div>
     <a href="#">
       <img src="./imgs/wubba-lubba.png" alt="The wubba lubba 4 square game board" class="projectsImg">
     </a>

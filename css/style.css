@@ -5,19 +5,19 @@ body{
 }
 
 h1{
-  font-size: 30px;
+  font-size: 40px;
   margin: 0;
 }
 h2{
-  font-size: 25px;
+  font-size: 35px;
   margin: 0;
 }
 h3{
-  font-size: 20px;
+  font-size: 30px;
   margin: 0;
 }
 p{
-  font-size: 15px;
+  font-size: 25px;
   margin: 0;
 }
 
@@ -78,20 +78,21 @@ footer{
 
 /*ABOUT STYLING*/
 .aboutDiv{
-  background: white;
-  color: rgb(44, 44, 45);
+  background: #a3b5b1;
+  /*color: rgb(44, 44, 45);*/
+  color: white;
 }
 .aboutImg{
-  width: 130px;
-  height: auto;
-  margin: 0 0 0 .5em;
+  width: 430px;
+  height: 100%;
+  margin: 0 -.75em 0 .5em;
   float: right;
-  padding-top: 1em;
+  /*padding-top: 1em;*/
 }
 .bigName{
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bold;
-  color: black;
+  color: white;
 }
 .aboutWriting{
   text-align: justify;
@@ -146,17 +147,19 @@ footer{
   background: -webkit-linear-gradient(#0f2829, #685b37); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(#0f2829, #685b37); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(#0f2829, #685b37); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#0f2829, #685b37); /* Standard syntax */
-  
-  text-align: center;
+  background: linear-gradient(#0f2829, #3b6359); /* Standard syntax */
+  /*text-align: center;*/
   color: white;
 }
 .projectsHeadLine{
   padding: 1em 0 1em 0;
+  text-align: center;
 }
 .projectsImg{
-  width: 100%;
+  width: 30%;
   height: auto;
+  display: inline;
+  float: right;
 }
 .projectsImg:hover{
   opacity: .7;
@@ -167,26 +170,28 @@ footer{
 }
 .projectsGitLink{
   text-align: center;
-  display: inline-block;
-  padding: .5em 0 3em 0;
+  display: block;
+  padding: .5em 0 4em 0;
+  /*margin-bottom: 1em;*/
   color: #3ddbcb;
   text-decoration: none;
-  font-size: 19px;
+  font-size: 25px;
 }
 .projectsGitLink:hover{
   color: white;
-  font-size: 20px;
+  font-size: 26px;
   text-decoration: underline;
 }
 .projectName{
   text-align: left;
+  clear:right; 
 }
 
 /*SKILLS STYLING*/
 .contactDiv{
   background-image: url('../imgs/kinect.gif');
   background-size: cover;
-  padding: 0 0 6em 0;
+  padding: 0 0 12em 0;
 
   text-align: center;
 }
@@ -200,6 +205,11 @@ footer{
   padding: 0 .5em 0 .5em;
 }
 
+.inlineBlock{
+  display: inline-block;
+  width: 69%;
+  padding-right: 5px;
+}
 
 
 
