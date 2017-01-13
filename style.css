@@ -133,11 +133,19 @@ footer{
   padding: 1.5em 0 1em 0;
 }
 .resumeText{
-  padding-top: 1em;
+  padding-top: 3em;
+}
+.bottomOfResume{
+  padding-bottom: 3em;
 }
 
+/*PROJECTS SECTION STYLING*/
+
 .projectsDiv{
-  background: yellow;
+  background: white;
+}
+.projectsHeadLine{
+  padding: 1em 0 1em 0;
   text-align: center;
 }
 
