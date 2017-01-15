@@ -144,9 +144,9 @@ footer{
 
 .projectsDiv{
   background: #0f2829; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#0f2829, #685b37); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#0f2829, #685b37); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#0f2829, #685b37); /* For Firefox 3.6 to 15 */
+  background: -webkit-linear-gradient(#0f2829, #3b6359); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#0f2829, #3b6359); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#0f2829, #3b6359); /* For Firefox 3.6 to 15 */
   background: linear-gradient(#0f2829, #3b6359); /* Standard syntax */
   /*text-align: center;*/
   color: white;
@@ -171,7 +171,7 @@ footer{
 .projectsGitLink{
   text-align: center;
   display: block;
-  padding: .5em 0 4em 0;
+  padding: .5em 0 1em 0;
   /*margin-bottom: 1em;*/
   color: #3ddbcb;
   text-decoration: none;
@@ -185,6 +185,9 @@ footer{
 .projectName{
   text-align: left;
   clear:right; 
+}
+.lastPTag{
+  padding-bottom: 100px;
 }
 
 /*SKILLS STYLING*/
