@@ -1,7 +1,8 @@
 body{
   background: black;
   margin: 0;
-  font-family: Tahoma, sans-serif;
+  font-family: 'Arimo', sans-serif;
+
 }
 
 h1{
@@ -66,20 +67,23 @@ footer{
 }
 
 .name{
-  padding-top: 7em;
+  padding-top: 4.5em;
   padding-bottom: 1em;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 45px;
 }
 .andClass{
   padding: .5em 0 .5em 0;
 }
 .seattleClass{
-  padding: 1em 0 7em 0;
+  padding: 1em 0 6em 0;    
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 32px;
 }
 
 /*ABOUT STYLING*/
 .aboutDiv{
   background: #23628c;
-  /*color: rgb(44, 44, 45);*/
   color: white;
 }
 .aboutImg{
@@ -87,7 +91,6 @@ footer{
   height: 100%;
   margin: 0 -.75em 0 .5em;
   float: right;
-  /*padding-top: 1em;*/
 }
 .bigName{
   font-size: 30px;
@@ -202,7 +205,7 @@ footer{
   background-image: url('../imgs/kinect.gif');
   background-size: cover;
   padding: 0 0 12em 0;
-
+  font-family: Tahoma, sans-serif;
   text-align: center;
 }
 .skillsText{
