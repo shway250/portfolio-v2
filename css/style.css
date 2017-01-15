@@ -2,7 +2,6 @@ body{
   background: black;
   margin: 0;
   font-family: 'Arimo', sans-serif;
-
 }
 
 h1{
@@ -116,10 +115,10 @@ footer{
 
 /*RESUME STYLING */
 .resumeDiv{
-  background: red; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#3e4f66, #8392a3, #a8a7a7); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(red, yellow, green); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(red, yellow, green); /* For Firefox 3.6 to 15 */
+  background: #a8a7a7; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#a8a7a7, #8392a3, #3e4f66); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#a8a7a7, #8392a3, #3e4f66); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#a8a7a7, #8392a3, #3e4f66); /* For Firefox 3.6 to 15 */
   background: linear-gradient(#a8a7a7, #8392a3, #3e4f66); /* Standard syntax */
 
   text-align: center;
@@ -144,16 +143,7 @@ footer{
 }
 
 /*PROJECTS SECTION STYLING*/
-
-/* background: #0f2829; 
-  background: -webkit-linear-gradient(#0f2829, #3b6359); 
-  background: -o-linear-gradient(#0f2829, #3b6359); 
-  background: -moz-linear-gradient(#0f2829, #3b6359); 
-  background: linear-gradient(#0f2829, #3b6359); 
-*/
 .projectsDiv{
-
-  
   background: #62bab1; /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(left top, #2f4945, #3ddbcb); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(bottom right, #2f4945, #3ddbcb); /* For Opera 11.1 to 12.0 */
@@ -182,7 +172,6 @@ footer{
   text-align: center;
   display: block;
   padding: .5em 0 1em 0;
-  /*margin-bottom: 1em;*/
   color: #3ddbcb;
   text-decoration: none;
   font-size: 25px;

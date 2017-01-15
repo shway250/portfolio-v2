@@ -1,7 +1,7 @@
 body{
   background: black;
   margin: 0;
-  font-family: Tahoma, sans-serif;
+  font-family: 'Arimo', sans-serif;
 }
 
 h1{
@@ -28,7 +28,7 @@ footer{
   padding: 0;
   text-align: center;
   width: 100%;
-  background: rgb(225,255,225);
+  background: #0b542d;
 }
 .footerList{
   padding: 0;
@@ -38,7 +38,7 @@ footer{
   font-size: 1em;
 }
 .footerList li a{
-  color: black;
+  color: rgb(225,255,225);
   text-decoration: none;
   padding-right: 5px;
   padding-left: 5px;
@@ -68,17 +68,19 @@ footer{
 .name{
   padding-top: 7em;
   padding-bottom: 1em;
+  font-family: 'Cormorant Garamond', serif;
 }
 .andClass{
   padding: .5em 0 .5em 0;
 }
 .seattleClass{
   padding: 1em 0 7em 0;
+  font-family: 'Cormorant Garamond', serif;
 }
 
 /*ABOUT STYLING*/
 .aboutDiv{
-  background: #a3b5b1;
+  background: #23628c;
   color: white;
 }
 .aboutImg{
@@ -91,7 +93,7 @@ footer{
 .bigName{
   font-size: 20px;
   font-weight: bold;
-  color: black;
+  color: white;
 }
 .aboutWriting{
   text-align: justify;
@@ -112,12 +114,11 @@ footer{
 
 /*RESUME STYLING */
 .resumeDiv{
-  background: #62bab1; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(left top, #2f4945, #3ddbcb); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(bottom right, #2f4945, #3ddbcb); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(bottom right, #2f4945, #3ddbcb); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to bottom right, #2f4945, #3ddbcb); /* Standard syntax */
-
+  background: #a8a7a7; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#a8a7a7, #8392a3, #3e4f66); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#a8a7a7, #8392a3, #3e4f66); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#a8a7a7, #8392a3, #3e4f66); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#a8a7a7, #8392a3, #3e4f66); /* Standard syntax */
   text-align: center;
 }
 .centered-text{
@@ -142,11 +143,11 @@ footer{
 /*PROJECTS SECTION STYLING*/
 
 .projectsDiv{
-  background: #0f2829; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#0f2829, #3b6359); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#0f2829, #3b6359); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#0f2829, #3b6359); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#0f2829, #3b6359); /* Standard syntax */
+  background: #62bab1; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #2f4945, #3ddbcb); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #2f4945, #3ddbcb); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #2f4945, #3ddbcb); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #2f4945, #3ddbcb); /* Standard syntax */
   
   text-align: center;
   color: white;
